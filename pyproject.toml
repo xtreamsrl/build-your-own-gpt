@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "build-your-own-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Gabriele Orlandi <gabriele.orlandi@xtreamers.io>"]
+readme = "README.md"
+packages = [{include = "build_your_own_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.2.1"
+jupyterlab = "^4.1.2"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
