@@ -37,7 +37,7 @@ If you have installed the project dependencies using Poetry, you can run Jupyter
 ## Project Setup on Google Colab
 
 Alternatively, you can open and run the live coding notebook `build_your_own_gpt.ipynb` on Google Colab by simply clicking here:
-<a target="_blank" href="https://colab.research.google.com/github/xtreamsrl/build-your-own-gpt/blob/master/notebooks/build_your_own_gpt.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/xtreamsrl/build-your-own-gpt/blob/master/build_your_own_gpt.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
