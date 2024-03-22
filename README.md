@@ -1,7 +1,7 @@
 # Build Your Own GPT
 
 This repository contains the live-coding part of the 2024 AMLD workshop "At the cutting edge of Generative AI - Unravel the Secrets of GPT and Build Your Own Model". 
-You can find the accompanying slides [here](https://xtreamers.sharepoint.com/:p:/s/xTrEAM/EVtHE6Bq0sVIr9wHYpXSsUEBiCUOxA7XkqkmLVFtxLY_Fg?e=A6vERn).
+You can find the accompanying slides [here](https://speakerdeck.com/donlelef/amld-2024-build-your-own-gpt).
 
 As stated during the workshop, the project as a whole is inspired by the excellent [Zero To Hero](https://karpathy.ai/zero-to-hero.html) course from Andrej Karpathy.
 ## Project Structure
@@ -22,13 +22,7 @@ If it's not, you can install it using the following command in your terminal:
 
 Once Poetry is installed, navigate to the project directory where the pyproject.toml file is located.
 Then, you can install the dependencies using the following command:
-```poetry install```
-
-This command will read the pyproject.toml file and install the specified dependencies in a new virtual environment.
-If you want to use the virtual environment for your project, you can activate it using:
-```poetry shell```
-
-Now, you should be able to use the installed dependencies in your project.
+```poetry install --no-root```
 
 To run the notebooks, you can use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/latest/).
 If you have installed the project dependencies using Poetry, you can run Jupyter Lab from the virtual environment using the following command:
@@ -40,11 +34,3 @@ Alternatively, you can open and run the live coding notebook `build_your_own_gpt
 <a target="_blank" href="https://colab.research.google.com/github/xtreamsrl/build-your-own-gpt/blob/master/build_your_own_gpt.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-
-If you want to run `demo_text_generation.ipynb` though, you will need to clone the whole repo since the demo notebook uses the source code and the artifacts stored in `/data` and `/model`.
-
-You can just go to https://colab.research.google.com/, open a new notebook and run the following command:
-```!git clone https://github.com/xtreamsrl/build-your-own-gpt.git```
-
-## Author
-The project is authored by Gabriele Orlandi. For any queries, you can reach out at gabriele.orlandi@xtreamers.io. 
